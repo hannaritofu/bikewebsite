@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.grid-container{
+    column-gap: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.mainPage {
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    background-color: rgb(248, 177, 149);
+    border: rgb(248, 177, 149);
+}
+
+.helmetSafety {
+    background-color: rgb(346, 114, 128);
+}
+
+.bikeSetup {
+    background-color: rgb(192, 108, 132);
+}
+
+.turnSignals {
+    background-color: rgb(108, 91, 123);
+}
+
+.quiz {
+    background-color: rgb(170, 180, 196);
+}
+
+#textbox {
+    width: 50%;
+}
+
+.container .helmetSafety .p {
+    width: 50%;
+}
+
+#id {
+    width: 50%;
+}
+
+#newText {
+    text-align: right;
+}
+
+#leftImage {
+    width: 200px;
+    height: 200px;
+}
+
+#rightImage {
+    width: 200px;
+    height: 200px;
+}
+
+#slowImage {
+    width: 200px;
+    height: 200px;
+}
+
+#stopImage {
+    width: 200px;
+    height: 200px;
+}
+
+/* .container .tableOfContent .learnSlides {
+    display: flex;
+    overflow-x: scroll;
+    width: 300%;
+}
+.container .tableOfContent .learnSlides .item {
+    text-align: center;
+    background-color: aqua;
+    height: 95vh;
+    text-align: center;
+}
+.container .tableOfContent .learnSlides{
+    scroll-snap-type: mandatory;
+    scroll-snap-type: x mandatory;
+}
+.container .tableOfContent .learnSlides .item{
+    scroll-snap-align: center;
+} */
